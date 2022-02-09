@@ -1,13 +1,13 @@
-package com.urdomain.lecture.ch02;
+package com.urdomain.lecture;
 
 public class BooleanExample {
 
 	public static void main(String[] args) {
 		boolean stop = true;
-		
-		if(stop) {
+
+		if (stop) {
 			System.out.println("중지합니다.");
-		}else {
+		} else {
 			System.out.println("시작합니다.");
 		}
 	}
